@@ -1,26 +1,6 @@
-import { useState } from "react";
 import FormField from "./FormField";
 
 const Form = () => {
-  const [formData, setFormData] = useState({
-    legalName: "",
-    businessName: "",
-    registrationNumber: "",
-    randomNumber: "",
-    website: "",
-    industry: "",
-    dropdown1: "",
-    dropdown2: "",
-    accountIntent: "",
-    randomCount: "",
-    expectedVisits: "",
-    purpose: "",
-    productDescription: "",
-    contactEmail: "",
-    incorporationCertificate: null,
-    companyLogo: null,
-  });
-
   const FORM_FIELDS = [
     {
       label: "Legal Name",
