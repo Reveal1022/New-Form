@@ -10,7 +10,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="bg-[url('bg.jpg')] h-full bg-cover relative flex justify-center">
+    <div className="bg-[url('bg1.png')] h-full bg-cover relative flex justify-center">
       <button
         className="flex items-center text-[14px] font-light text-[#e0e0e0] gap-1 absolute top-10 left-10
       "
